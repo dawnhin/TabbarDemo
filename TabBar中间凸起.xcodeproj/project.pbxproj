@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2657D399239B83C300597959 /* ProjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2657D398239B83C300597959 /* ProjectViewController.swift */; };
 		26C7604A239A8BE500A708F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C76049239A8BE500A708F0 /* AppDelegate.swift */; };
 		26C7604C239A8BE500A708F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C7604B239A8BE500A708F0 /* ViewController.swift */; };
 		26C7604F239A8BE500A708F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26C7604D239A8BE500A708F0 /* Main.storyboard */; };
@@ -14,6 +15,15 @@
 		26C76054239A8BE600A708F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26C76052239A8BE600A708F0 /* LaunchScreen.storyboard */; };
 		26C7605F239A8BE600A708F0 /* TabBar____Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C7605E239A8BE600A708F0 /* TabBar____Tests.swift */; };
 		26C7606A239A8BE700A708F0 /* TabBar____UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C76069239A8BE700A708F0 /* TabBar____UITests.swift */; };
+		26C7607B239A8C6A00A708F0 /* MainTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C7607A239A8C6A00A708F0 /* MainTabbarController.swift */; };
+		26C7607D239A8F8E00A708F0 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C7607C239A8F8E00A708F0 /* HomeViewController.swift */; };
+		26C7607F239A8FA800A708F0 /* GoodsCategroyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C7607E239A8FA800A708F0 /* GoodsCategroyViewController.swift */; };
+		26C76081239A8FC200A708F0 /* ShoppingCarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C76080239A8FC200A708F0 /* ShoppingCarViewController.swift */; };
+		26C76083239A8FDA00A708F0 /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C76082239A8FDA00A708F0 /* MineViewController.swift */; };
+		26C7608B239A924D00A708F0 /* UIColor+HexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C7608A239A924D00A708F0 /* UIColor+HexColor.m */; };
+		26C76090239A969100A708F0 /* MainTabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C7608F239A969100A708F0 /* MainTabbar.swift */; };
+		26C76093239A9E2600A708F0 /* UIImage+colorImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C76092239A9E2600A708F0 /* UIImage+colorImage.m */; };
+		26C76096239AA90F00A708F0 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C76095239AA90F00A708F0 /* UIView+Frame.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2657D398239B83C300597959 /* ProjectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectViewController.swift; sourceTree = "<group>"; };
 		26C76046239A8BE500A708F0 /* TabBar中间凸起.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TabBar中间凸起.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		26C76049239A8BE500A708F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		26C7604B239A8BE500A708F0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +58,19 @@
 		26C76065239A8BE700A708F0 /* TabBar中间凸起UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TabBar中间凸起UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		26C76069239A8BE700A708F0 /* TabBar____UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TabBar____UITests.swift"; sourceTree = "<group>"; };
 		26C7606B239A8BE700A708F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26C7607A239A8C6A00A708F0 /* MainTabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabbarController.swift; sourceTree = "<group>"; };
+		26C7607C239A8F8E00A708F0 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		26C7607E239A8FA800A708F0 /* GoodsCategroyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodsCategroyViewController.swift; sourceTree = "<group>"; };
+		26C76080239A8FC200A708F0 /* ShoppingCarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingCarViewController.swift; sourceTree = "<group>"; };
+		26C76082239A8FDA00A708F0 /* MineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineViewController.swift; sourceTree = "<group>"; };
+		26C76085239A920800A708F0 /* TabBar中间凸起-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TabBar中间凸起-Bridging-Header.h"; sourceTree = "<group>"; };
+		26C76089239A924D00A708F0 /* UIColor+HexColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexColor.h"; sourceTree = "<group>"; };
+		26C7608A239A924D00A708F0 /* UIColor+HexColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexColor.m"; sourceTree = "<group>"; };
+		26C7608F239A969100A708F0 /* MainTabbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabbar.swift; sourceTree = "<group>"; };
+		26C76091239A9E2600A708F0 /* UIImage+colorImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+colorImage.h"; sourceTree = "<group>"; };
+		26C76092239A9E2600A708F0 /* UIImage+colorImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+colorImage.m"; sourceTree = "<group>"; };
+		26C76094239AA90F00A708F0 /* UIView+Frame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		26C76095239AA90F00A708F0 /* UIView+Frame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,11 +121,19 @@
 		26C76048239A8BE500A708F0 /* TabBar中间凸起 */ = {
 			isa = PBXGroup;
 			children = (
+				26C76084239A91D100A708F0 /* Categroy */,
+				26C76077239A8C1A00A708F0 /* Main */,
 				26C76049239A8BE500A708F0 /* AppDelegate.swift */,
 				26C7604B239A8BE500A708F0 /* ViewController.swift */,
+				26C7607C239A8F8E00A708F0 /* HomeViewController.swift */,
+				26C7607E239A8FA800A708F0 /* GoodsCategroyViewController.swift */,
+				26C76080239A8FC200A708F0 /* ShoppingCarViewController.swift */,
+				26C76082239A8FDA00A708F0 /* MineViewController.swift */,
+				2657D398239B83C300597959 /* ProjectViewController.swift */,
 				26C7604D239A8BE500A708F0 /* Main.storyboard */,
 				26C76050239A8BE600A708F0 /* Assets.xcassets */,
 				26C76052239A8BE600A708F0 /* LaunchScreen.storyboard */,
+				26C76085239A920800A708F0 /* TabBar中间凸起-Bridging-Header.h */,
 				26C76055239A8BE600A708F0 /* Info.plist */,
 			);
 			path = "TabBar中间凸起";
@@ -123,6 +155,44 @@
 				26C7606B239A8BE700A708F0 /* Info.plist */,
 			);
 			path = "TabBar中间凸起UITests";
+			sourceTree = "<group>";
+		};
+		26C76077239A8C1A00A708F0 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				26C76079239A8C3A00A708F0 /* View */,
+				26C76078239A8C2100A708F0 /* Controller */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		26C76078239A8C2100A708F0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				26C7607A239A8C6A00A708F0 /* MainTabbarController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		26C76079239A8C3A00A708F0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				26C7608F239A969100A708F0 /* MainTabbar.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		26C76084239A91D100A708F0 /* Categroy */ = {
+			isa = PBXGroup;
+			children = (
+				26C76089239A924D00A708F0 /* UIColor+HexColor.h */,
+				26C7608A239A924D00A708F0 /* UIColor+HexColor.m */,
+				26C76091239A9E2600A708F0 /* UIImage+colorImage.h */,
+				26C76092239A9E2600A708F0 /* UIImage+colorImage.m */,
+				26C76094239AA90F00A708F0 /* UIView+Frame.h */,
+				26C76095239AA90F00A708F0 /* UIView+Frame.m */,
+			);
+			path = Categroy;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +263,7 @@
 				TargetAttributes = {
 					26C76045239A8BE500A708F0 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 					26C76059239A8BE600A708F0 = {
 						CreatedOnToolsVersion = 10.1;
@@ -257,7 +328,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				26C7604C239A8BE500A708F0 /* ViewController.swift in Sources */,
+				26C76093239A9E2600A708F0 /* UIImage+colorImage.m in Sources */,
+				26C7608B239A924D00A708F0 /* UIColor+HexColor.m in Sources */,
+				26C76081239A8FC200A708F0 /* ShoppingCarViewController.swift in Sources */,
+				26C76090239A969100A708F0 /* MainTabbar.swift in Sources */,
 				26C7604A239A8BE500A708F0 /* AppDelegate.swift in Sources */,
+				26C76083239A8FDA00A708F0 /* MineViewController.swift in Sources */,
+				26C7607F239A8FA800A708F0 /* GoodsCategroyViewController.swift in Sources */,
+				2657D399239B83C300597959 /* ProjectViewController.swift in Sources */,
+				26C7607B239A8C6A00A708F0 /* MainTabbarController.swift in Sources */,
+				26C7607D239A8F8E00A708F0 /* HomeViewController.swift in Sources */,
+				26C76096239AA90F00A708F0 /* UIView+Frame.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,14 +513,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UE4DP7L3T3;
 				INFOPLIST_FILE = "TabBar中间凸起/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.chaofang.TabBar----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TabBar中间凸起/TabBar中间凸起-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -449,14 +535,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UE4DP7L3T3;
 				INFOPLIST_FILE = "TabBar中间凸起/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.chaofang.TabBar----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TabBar中间凸起/TabBar中间凸起-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
